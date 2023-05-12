@@ -1,0 +1,1 @@
+Indicates that the handler matches all attributes with the specified name prefix (such as "user."); the name field must be NULL.

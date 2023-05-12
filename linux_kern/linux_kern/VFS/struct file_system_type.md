@@ -25,6 +25,6 @@ struct file_system_type {
 
 ```
 
-*  [[name]] the name of the filesystem type, such as "ext2", "vfat" and so n
+*  [[file_system_type:name | name]] the name of the filesystem type, such as "ext2", "vfat" and so n
 * [[fs_flags]] various flags(i.e. FS_REQUIRES_DEV, FS_NO_DCACHE, etc)
 * [[init_fs_context]]  Initializes 'struct fs_context' ->ops and ->fs_private fields with filesystem-specific data.

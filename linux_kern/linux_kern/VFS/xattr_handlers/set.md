@@ -1,0 +1,1 @@
+Called by the VFS to set the value of a particular extended attribute.  When the new value is NULL, called to remove a 	particular extended attribute.  This method is called by the 	setxattr(2) and removexattr(2) system calls.
