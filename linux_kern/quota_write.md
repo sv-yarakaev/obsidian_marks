@@ -1,0 +1,1 @@
+called by the VFS to write to filesystem quota file.

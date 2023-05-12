@@ -1,0 +1,1 @@
+called by the VFS to read from filesystem quota file.

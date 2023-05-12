@@ -1,0 +1,1 @@
+called when the VFS wants to delete an inode

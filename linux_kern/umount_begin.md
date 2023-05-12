@@ -1,0 +1,1 @@
+called when the VFS is unmounting a filesystem.

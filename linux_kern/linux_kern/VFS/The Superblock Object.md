@@ -37,13 +37,28 @@ All methods are called without any locks being held, unless otherwise
 noted.  This means that most methods can block safely.  All methods are
 only called from a process context (i.e. not from an interrupt handler
 or bottom half).
-
 [[alloc_inode]]  
-
 [[destroy_inode]] 
 [[dirty_inode]] 
-
-
+[[write_inode]] 
+[[drop_inode]] 
+[[delete_inode]]
+[[put_super]]
+[[sync_fs]]
+[[freeze_fs]]
+[[unfreeze_fs]]
+[[statfs]]
+[[remount_fs]]
+[[clear_inode]]
+[[umount_begin]]
+[[show_options]]
+[[quota_read]]
+[[quota_write]]
+[[nr_cached_objects]]
+[[free_cache_objects]]
+Whoever sets up the inode is responsible for filling in the "i_op"
+field.  This is a pointer to a "struct inode_operations" which describes
+the methods that can be performed on individual inodes.
 
 
 
