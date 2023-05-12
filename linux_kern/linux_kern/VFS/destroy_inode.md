@@ -1,0 +1,1 @@
+this method is called by destroy_inode() to release resources allocated for struct inode.  It is only required if 	->alloc_inode was defined and simply undoes anything done by  ->alloc_inode.

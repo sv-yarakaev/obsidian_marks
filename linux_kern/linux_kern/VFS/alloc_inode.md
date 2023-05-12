@@ -1,0 +1,1 @@
+this method is called by alloc_inode() to allocate memory for struct inode and initialize it.  If this function is not defined, a simple 'struct inode' is allocated.  Normally alloc_inode will be used to allocate a larger structure which contains a 'struct inode' embedded within it.
