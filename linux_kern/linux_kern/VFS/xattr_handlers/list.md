@@ -1,0 +1,1 @@
+Determine if attributes matching this xattr handler should be 	listed for a particular dentry.  Used by some listxattr 	implementations like generic_listxattr.

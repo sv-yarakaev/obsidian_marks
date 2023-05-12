@@ -1,0 +1,1 @@
+called when VFS is locking a filesystem and forcing it into a consistent state.  This method is currently used by the Logical 	Volume Manager (LVM).

@@ -1,0 +1,1 @@
+called by the sb cache shrinking function for the filesystem to return the number of freeable cached objects it contains. 	Optional.
