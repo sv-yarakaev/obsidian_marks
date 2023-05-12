@@ -1,0 +1,1 @@
+called by the mknod(2) system call to create a device (char, block) inode or a named pipe (FIFO) or socket.  Only required if 	you want to support creating these types of inodes.  You will 	probably need to call d_instantiate() just as you would in the 	create() method

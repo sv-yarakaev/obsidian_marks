@@ -1,0 +1,1 @@
+called by the symlink(2) system call.  Only required if you want to support symlinks.  You will probably need to call 	d_instantiate() just as you would in the create() method

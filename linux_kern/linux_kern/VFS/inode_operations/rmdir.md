@@ -1,0 +1,1 @@
+called by the rmdir(2) system call.  Only required if you want to support deleting subdirectories

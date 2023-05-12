@@ -1,0 +1,1 @@
+called by the unlink(2) system call.  Only required if you want to support deleting inodes
