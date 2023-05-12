@@ -34,3 +34,13 @@ struct inode_operations {
 Again, all methods are called without any locks being held, unless
 otherwise noted. 
 [[create]] 
+[[lookup]]
+[[link]] 
+[[unlink]] 
+[[symlink]] 
+[[mkdir]] 
+[[rmdir]] 
+[[mknod]] 
+[[rename]] 
+[[get_link]] 
+[[readlink]]
